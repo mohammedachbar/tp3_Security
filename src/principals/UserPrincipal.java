@@ -1,0 +1,22 @@
+package principals;
+import java.security.*;
+
+public class UserPrincipal implements Principal{
+
+	private String name;
+	  
+	  public UserPrincipal(String name) {
+	    super();
+	    this.name = name;
+	  }
+
+	  public void setName(String name) {
+	    this.name = name;
+	  }
+
+	  public String getName() {
+	    return name;
+	  }
+	
+
+}
